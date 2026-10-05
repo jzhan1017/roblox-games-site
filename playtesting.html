@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playtesting and bugs · roblox-games</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html"><span class="dot"></span>roblox-games</a>
+  <nav><a href="index.html">Home</a><a href="game.html">The game</a><a href="agents.html">The agents</a><a href="dashboard.html">Dashboard</a><a href="playtesting.html" class="on">Playtesting and bugs</a><a href="contribute.html">Help out</a></nav>
+</header>
+<main>
+<h1 id="playtesting-and-bugs">Playtesting and bugs</h1>
+<p>Tests can check the math. They can't tell you if the game <em>feels</em> broken. So bots play it.</p>
+<h2 id="how-a-playtest-works">How a playtest works</h2>
+<ol>
+<li>The owner types <code>/playtest</code> and walks away from the computer.</li>
+<li>Roblox Studio opens, and bots join the game as players.</li>
+<li>The bots play nonstop: smash, grab candy, buy sticks, walk around.</li>
+<li>A playtester agent watches the bots, looks closer when something seems wrong, and takes
+   screenshots.</li>
+<li>When time's up, every problem becomes a task with a screenshot. These tasks go first.</li>
+</ol>
+<p>It only runs while the owner is away, because Studio takes over the screen.</p>
+<h2 id="where-bugs-come-from">Where bugs come from</h2>
+<ul>
+<li><strong>The owner</strong> plays and reports.</li>
+<li><strong>Bots</strong> find them in playtests.</li>
+<li><strong>The live game</strong> sends its errors back automatically.</li>
+</ul>
+<h2 id="the-rule-for-fixing-a-bug">The rule for fixing a bug</h2>
+<p>Every fix comes with a test that would have caught the bug. That way the same bug can't come
+back unnoticed.</p>
+<p>The goal: agents find bugs before the owner does.</p>
+<footer><a href="https://github.com/jzhan1017/roblox-games">Source on GitHub</a></footer>
+</main>
+</body>
+</html>

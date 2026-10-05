@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The dashboard · roblox-games</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html"><span class="dot"></span>roblox-games</a>
+  <nav><a href="index.html">Home</a><a href="game.html">The game</a><a href="agents.html">The agents</a><a href="dashboard.html" class="on">Dashboard</a><a href="playtesting.html">Playtesting and bugs</a><a href="contribute.html">Help out</a></nav>
+</header>
+<main>
+<h1 id="the-dashboard">The dashboard</h1>
+<p>One web page on the owner's computer that shows how the agent team is doing. Every number is saved
+when it happens, so you can see history, not just today.</p>
+<h2 id="the-main-questions-it-answers">The main questions it answers</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>What you see</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Are players getting new things?</td>
+<td>How many changes made it into the live game</td>
+</tr>
+<tr>
+<td>Did we fix bugs before adding features?</td>
+<td>Recent changes, colored red if a feature jumped ahead of a bug</td>
+</tr>
+<tr>
+<td>Is anything broken for players right now?</td>
+<td>Errors from the live game, per hour</td>
+</tr>
+<tr>
+<td>Is the game simple enough for a kid?</td>
+<td>A score: buttons on screen, how fast the first reward comes, lag</td>
+</tr>
+<tr>
+<td>What is each agent doing?</td>
+<td>One box per agent: what it's working on and what it owes</td>
+</tr>
+<tr>
+<td>Is work piling up?</td>
+<td>Tasks opened vs finished, per day</td>
+</tr>
+<tr>
+<td>What did the autopilot do?</td>
+<td>Each number that went red, what the program did about it, and whether it worked</td>
+</tr>
+<tr>
+<td>How much does it cost?</td>
+<td>AI usage this week, and cost per agent</td>
+</tr>
+<tr>
+<td>How often did agents bother the owner?</td>
+<td>Every question they asked. This should go down.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="two-more-tabs">Two more tabs</h2>
+<ul>
+<li><strong>Playtests:</strong> each test session, what the bots saw, screenshots, and what got fixed.</li>
+<li><strong>Bugs:</strong> who found each bug (the owner, a bot, or the live game), and whether it was fixed.</li>
+</ul>
+<footer><a href="https://github.com/jzhan1017/roblox-games">Source on GitHub</a></footer>
+</main>
+</body>
+</html>

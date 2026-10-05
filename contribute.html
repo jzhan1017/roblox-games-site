@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help out · roblox-games</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html"><span class="dot"></span>roblox-games</a>
+  <nav><a href="index.html">Home</a><a href="game.html">The game</a><a href="agents.html">The agents</a><a href="dashboard.html">Dashboard</a><a href="playtesting.html">Playtesting and bugs</a><a href="contribute.html" class="on">Help out</a></nav>
+</header>
+<main>
+<h1 id="help-out">Help out</h1>
+<p>You can work on this the same way the owner does, with your own Claude.</p>
+<h2 id="1-set-up">1. Set up</h2>
+<pre><code class="language-sh">gh repo clone jzhan1017/roblox-games
+cd roblox-games
+./.setup
+</code></pre>
+<p><code>./.setup</code> installs everything and tells you what's left. A few steps need you:</p>
+<ul>
+<li>Accept the GitHub invite.</li>
+<li>Log in to GitHub: <code>gh auth login</code>.</li>
+<li>Install Roblox Studio.</li>
+<li>Make your own Roblox API key. The steps are in
+  <a href="https://github.com/jzhan1017/roblox-games/blob/main/docs/CONTRIBUTING.md">docs/CONTRIBUTING.md</a>.</li>
+</ul>
+<h2 id="2-start-claude">2. Start Claude</h2>
+<pre><code class="language-sh">claude
+</code></pre>
+<p>It reads the project's rules on its own. Then just ask, for example:</p>
+<ul>
+<li>"What's left to set up?"</li>
+<li>"Show me a task I could do."</li>
+<li>"Build task #123 and open a pull request."</li>
+<li>"Open the game in Studio so I can try my change."</li>
+</ul>
+<h2 id="3-your-change-goes-in">3. Your change goes in</h2>
+<p>Your change gets the same reviews and tests as the agents' changes. Once it's in, it goes live the
+next time the owner publishes.</p>
+<footer><a href="https://github.com/jzhan1017/roblox-games">Source on GitHub</a></footer>
+</main>
+</body>
+</html>
